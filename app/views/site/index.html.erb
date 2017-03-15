@@ -1,6 +1,5 @@
 <h1>Hello World</h1>
 <% @cats.each do |cat| %>
-  <%= cat.name %>
   <%= link_to "#{cat.name}", categories_show_path(id: cat.id) %>
   <br>
 <% end %>

@@ -1,7 +1,9 @@
 <h1><%= @cat.name %></h1>
 
 <% @cat.foods.each do |food| %>
-  <%= food.name %>
+  <%= link_to "#{food.name}", foods_show_path(id: food.id) %>
+  <br>
+  <%= "$" + food.price %>
   <br>
   <%= food.description %>
   <br>

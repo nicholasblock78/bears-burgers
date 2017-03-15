@@ -1,0 +1,10 @@
+<h1><%= @cat.name %></h1>
+
+<% @cat.foods.each do |food| %>
+  <%= food.name %>
+  <br>
+  <%= food.description %>
+  <br>
+  <%= image_tag("#{food.image_url}", size: "100x100" ) %>
+  <p>----------------------</p>
+<% end %>

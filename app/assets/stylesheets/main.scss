@@ -8,10 +8,27 @@ header {
   // height: 200px;
 }
 
+p {
+  font-size: 0.7em;
+}
+
 .header-img {
   width: 150px;
 }
 
 body {
   background-color: $light;
+}
+
+.veg {
+  width: 50px;
+  fill: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-item p {
+  font-size: 0.6em;
 }

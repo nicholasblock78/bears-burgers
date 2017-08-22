@@ -11,5 +11,6 @@ Rails.application.routes.draw do
   get 'war' => 'site#war'
   get 'menu' => 'site#menu'
   get 'about' => 'site#about'
+  get 'burger_builder' => 'site#burger_builder'
   root 'site#index'
 end

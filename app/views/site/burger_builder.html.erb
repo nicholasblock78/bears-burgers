@@ -1,16 +1,34 @@
 <h2>Burger Builder</h2>
 <div>
-  <section>
-    <h3>Step 1 - <em>Pick a bun</em></h3>
+  <h3>Step 1 - <em>Pick a bun</em></h3>
+  <section class="burger-section">
+    <div class="menu-item">
+      <%= image_tag("brioche.png", class: 'menu bread') %>
+      <p>Brioche</p>
+    </div>
+    <div class="menu-item">
+      <%= image_tag("pretzel.png", class: 'menu bread') %>
+      <p>Prezel</p>
+    </div>
+  </section>
+  <h3>Step 2 - <em>Pick a patty</em></h3>
+  <section class="burger-section">
 
   </section>
-  <section>
-    <h3>Step 2 - <em>Pick a patty</em></h3>
-
-  </section>
-  <section>
-    <h3>Step 3 - <em>Pick your toppings</em></h3>
-
+  <h3>Step 3 - <em>Pick your toppings</em></h3>
+  <section class="burger-section">
+    <div class="menu-item">
+      <%= image_tag("avocado.png", class: 'menu topping') %>
+      <p>Avocado</p>
+    </div>
+    <div class="menu-item">
+      <%= image_tag("red-onion.png", class: 'menu topping') %>
+      <p>Red Onion</p>
+    </div>
+    <div class="menu-item">
+      <%= image_tag("mushrooms.png", class: 'menu topping') %>
+      <p>Sliced Mushrooms</p>
+    </div>
   </section>
 </div>
 <div class="builder">
